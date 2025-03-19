@@ -7,7 +7,8 @@ variables:
   # Global
   ap_vm_image: ubuntu-20.04
 
-  namespace: mlopslite49536503 #Note: A namespace with many characters will cause storage account creation to fail due to storage account names having a limit of 24 characters.
+  # Note: A namespace with many characters will cause storage account creation to fail due to storage account names having a limit of 24 characters.
+  namespace: mlopslite49536503 
   postfix: c
   location: eastus
 
