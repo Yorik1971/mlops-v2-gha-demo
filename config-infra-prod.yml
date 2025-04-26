@@ -7,7 +7,7 @@ variables:
   # Global
   ap_vm_image: ubuntu-20.04
 
-  namespace: ml50735545 #Note: A namespace with many characters will cause storage account creation to fail due to storage account names having a limit of 24 characters.
+  namespace: ml50736616 #Note: A namespace with many characters will cause storage account creation to fail due to storage account names having a limit of 24 characters.
   postfix: c
   location: eastus
 
@@ -24,11 +24,11 @@ variables:
 
   # For pipeline reference
   resource_group: ResourceGroup1
-  aml_workspace: Azuremlws50735545
-  application_insights: azuremlws507356436302146
-  key_vault: azuremlws507356880157639
-  container_registry: azuremlcr50735545
-  storage_account: azuremlws507356891959701
+  aml_workspace: Azuremlws50736616
+  application_insights: azuremlws507365338580383
+  key_vault: azuremlws507360621275585
+  container_registry: azuremlcr50736616
+  storage_account: azuremlws507366665861999
 
   # For terraform reference
   terraform_version: 0.14.7
